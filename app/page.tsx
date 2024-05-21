@@ -20,7 +20,7 @@ export default function Home() {
               <Bullet>Retina display support</Bullet>
             </ul>
             {/* CTA Container */}
-            <div className="mb-12 flex space-x-4 md:mb-8 md:w-[458px] md:space-x-8 xl:mb-0 xl:w-9/12">
+            <div className="mb-12 flex flex-row-reverse gap-x-4 md:mb-8 md:w-[458px] md:flex-row md:gap-8 xl:mb-0 xl:w-9/12">
               {/* Button Learn More */}
               <Button text="Learn more" type="primary" />
               {/* Button See Pricing */}
@@ -29,7 +29,7 @@ export default function Home() {
           </div>
           {/* Hero Image */}
           <Image
-            className="xl:w-1/2 xl:max-w-[696px]"
+            className="md:max-w-[704px] xl:w-1/2 xl:max-w-[696px]"
             src={'/prism.png'}
             layout="responsive"
             width={696}
