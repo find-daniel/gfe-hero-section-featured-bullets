@@ -10,7 +10,7 @@ export default function Home() {
           {/* Content Container */}
           <div className="xl:mb-0 xl:w-1/2 xl:pt-0">
             {/* Headline */}
-            <h1 className="mb-4 text-4xl font-semibold text-neutral-900 md:mb-16 md:text-5xl xl:text-6xl">
+            <h1 className="mb-8 text-4xl font-semibold text-neutral-900 md:mb-16 md:text-5xl xl:text-6xl">
               Premium abstract images
             </h1>
             {/* Featured Bullets */}
