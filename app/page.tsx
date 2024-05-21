@@ -8,7 +8,7 @@ export default function Home() {
       <header className="mx-4 my-4 max-w-[1440px] rounded border bg-white px-4 shadow-sm xl:p-24" role="banner">
         <section className="my-16 flex flex-col md:my-[72px] xl:my-0 xl:flex-row xl:items-center">
           {/* Content Container */}
-          <div className="flex-1 xl:mb-0 xl:pt-0">
+          <div className="xl:mb-0 xl:w-1/2 xl:pt-0">
             {/* Headline */}
             <h1 className="mb-4 text-4xl font-semibold text-neutral-900 md:mb-16 md:text-5xl xl:text-6xl">
               Premium abstract images
@@ -29,7 +29,7 @@ export default function Home() {
           </div>
           {/* Hero Image */}
           <Image
-            className="flex-1 xl:max-w-[696px]"
+            className="xl:w-1/2 xl:max-w-[696px]"
             src={'/prism.png'}
             layout="responsive"
             width={696}
