@@ -9,7 +9,7 @@ export default function Button({ text, type, ...rest }: Props): ReactElement {
   return (
     <button
       className={[
-        'w-full rounded px-[28px] py-3 text-base font-medium shadow',
+        'w-full rounded px-[28px] py-3 text-base font-medium shadow md:text-lg',
         'md:px-14 md:py-4 xl:px-9',
         type === 'primary'
           ? 'border border-neutral-200 bg-white text-neutral-900 hover:bg-neutral-50 focus-visible:bg-neutral-50'
